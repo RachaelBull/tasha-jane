@@ -1,3 +1,16 @@
+/* General target for all elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* General */
+body {
+    display: flex;
+    flex-direction: column;
+    color: #808080;
+    min-height: 100vh;
+}
 /* Header */
 header {
     background-color: #ffe6e6;
@@ -5,8 +18,11 @@ header {
 /* Main Content */
 main {
     background-color: #cccccc;
+    /* flex in place to push the footer down, taking up any additional space */
+    flex: 1 0 auto;
 }
 /* Footer */
 footer {
     background-color: #e6e6e6;
 }
+
