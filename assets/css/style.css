@@ -1,3 +1,6 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Didact+Gothic&family=Great+Vibes&family=Lato:wght@300&family=Mooli&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Philosopher&display=swap');
+
 /* General target for all elements */
 * {
     padding: 0;
@@ -10,10 +13,12 @@ body {
     flex-direction: column;
     color: #808080;
     min-height: 100vh;
+    font-family: "Mooli", sans-serif;
 }
 /* Header */
 header {
     background-color: #ffe6e6;
+    font-family: "Pacifico", sans-serif;
 }
 /* Main Content */
 main {
