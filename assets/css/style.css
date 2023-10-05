@@ -44,10 +44,23 @@ h1 {
 
 #menu > li {
     margin-bottom: 1em;
+    list-style-type: none;
 }
 
 .current {
     border-bottom: 1px solid #808080;
+}
+
+/* Nav bar dropdown styles */
+
+nav {
+    position: absolute;
+    background-color: #FFF2F6FF;
+    width: 100%;
+    left: 0;
+    padding: 1rem;
+    box-shadow: 0 3px 3px #808080;
+    display: none;
 }
 /* Main Content */
 main {
