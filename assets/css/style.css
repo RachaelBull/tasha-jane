@@ -18,6 +18,10 @@ body {
 /* Header */
 header {
     background-color: #ffe6e6;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 3px #808080;
 }
 /* Main Content */
 main {
