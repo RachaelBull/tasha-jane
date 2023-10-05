@@ -17,11 +17,22 @@ body {
 }
 /* Header */
 header {
-    background-color: #ffe6e6;
+    background-color: #FFF2F6FF;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #808080;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: "Mooli", sans-serif;
+    letter-spacing: 2px;
+    color: #4D494AFF;
 }
 /* Main Content */
 main {
@@ -34,7 +45,4 @@ footer {
     background-color: #e6e6e6;
 }
 
-h1 {
-    font-family: "Mooli", sans-serif;
-}
 
