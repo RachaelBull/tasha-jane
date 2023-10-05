@@ -21,8 +21,10 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 3px #808080;
-    padding-left: 10px;
+    box-shadow: 0 2px 2px #808080;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 header a {
@@ -61,10 +63,27 @@ nav {
     padding: 1rem;
     box-shadow: 0 3px 3px #808080;
     display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+
+#nav-dropdown:checked~nav {
+    display: block;
+}
+
+#nav-dropdown {
+    display: none;
+}
+
+.nav-dropdown-label {
+    font-size: 2rem;
+    padding-right: 10px;
 }
 /* Main Content */
 main {
     background-color: #cccccc;
+    margin-top: 40px;
     /* flex in place to push the footer down, taking up any additional space */
     flex: 1 0 auto;
 }
