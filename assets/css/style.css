@@ -84,13 +84,23 @@ nav {
 
 /* Main Content */
 main {
-    background-color: #cccccc;
-    margin-top: 40px;
     /* flex in place to push the footer down, taking up any additional space */
+    margin-top: 40px;
     flex: 1 0 auto;
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero\ 2.jpg") no-repeat center center/cover;
+    /* To adjust the view in mobile phone view */
+    background-position: -210px;
+
+}
+
 /* Footer */
+
 #social-media {
     text-align: center;
     padding: 20px 0;
@@ -108,19 +118,19 @@ main {
 @media screen and (min-width: 768px) {
 
     /* Header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
 
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -139,10 +149,22 @@ main {
         margin-top: 85px;
     }
 
-}
+    #hero {
+        height: 600px;
+        width: 100%;
+        background: url("../images/hero\ 2.jpg") no-repeat center center/cover;
 
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #808080;
+
+
     }
-}
+
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #808080;
+        }
+
+        #hero {
+            height: 600px;
+            width: 100%;
+            background: url("../images/hero\ 2.jpg") no-repeat center center/cover;
+        }
