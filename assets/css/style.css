@@ -11,9 +11,16 @@
 body {
     display: flex;
     flex-direction: column;
-    color: #808080;
+    color: #4d4d4d;
     min-height: 100vh;
-    font-family: "Mooli", sans-serif;
+    font-family: "Lato", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Philosopher", sans-serif;
+    letter-spacing: 2px;
+    color: #4d4d4d;
+    text-transform: uppercase;
 }
 
 /* Header */
@@ -31,12 +38,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: "Mooli", sans-serif;
-    letter-spacing: 2px;
-    color: #4D494AFF;
 }
 
 #menu {
@@ -94,9 +95,25 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero\ 2.jpg") no-repeat center center/cover;
-    /* To adjust the view in mobile phone view */
-    background-position: -210px;
+    /* Move image to the left in mobile view */
+    background-position: -200px;
+    position: relative;
+}
 
+#cover-text {
+    background-color: rgb(255, 179, 179, .6);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 70%;
+    min-height: 80px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
 }
 
 /* Footer */
