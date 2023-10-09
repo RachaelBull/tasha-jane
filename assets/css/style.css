@@ -116,6 +116,31 @@ main {
     color: #ffffff;
 }
 
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#beautiful-comfort > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 30px;
+}
+
+hr {
+    border-bottom: 1px solid #4d4d4d;
+    margin: 5px 0;
+}
+
 /* Footer */
 
 #social-media {
@@ -166,22 +191,28 @@ main {
         margin-top: 85px;
     }
 
+    /* Hero */
+
     #hero {
         height: 600px;
         width: 100%;
+        /* Background to override the - position used in the mobile view CSS */
         background: url("../images/hero\ 2.jpg") no-repeat center center/cover;
-
-
-
     }
-
+}
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 1px solid #808080;
         }
-
+        
+        /* Hero */
         #hero {
             height: 600px;
             width: 100%;
             background: url("../images/hero\ 2.jpg") no-repeat center center/cover;
         }
+
+        #cover-text {
+            width: 36%;
+        }
+    }   
