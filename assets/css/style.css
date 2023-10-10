@@ -222,6 +222,14 @@ footer {
     color: #4D494AFF;
 }
 
+/* Large or landscape phones */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* For display on tablets and larger (768px +) */
 @media screen and (min-width: 768px) {
 
@@ -265,6 +273,11 @@ footer {
         /* Background to override the - position used in the mobile view CSS */
         background: url("../images/hero\ 2.jpg") no-repeat center center/cover;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -286,6 +299,12 @@ footer {
     /* Client Comments Section*/
     #comments {
         font-size: 23px;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+        height: fit-content;
     }
 
 
