@@ -88,9 +88,14 @@ nav {
 /* Main Content */
 main {
     /* flex in place to push the footer down, taking up any additional space */
-    margin-top: 40px;
     flex: 1 0 auto;
+    /* Margin top to stop main content being covered by header */
+    margin-top: 40px;
+    /* General Styles */
     background-color: #f2f2f2;
+    /* flex for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -222,6 +227,60 @@ footer {
     color: #4D494AFF;
 }
 
+/* Contacts Page */
+
+#contact {
+    background-image: url(../images/shutterstock_2168230119.jpg);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgb(140, 140, 140, 0.6);
+    padding: 30px;
+    border: 1px solid #ffffff;
+}
+
+#contact-form > h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#contact-form > h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.text-input {
+    background: transparent;
+    color: #ffffff;
+    width: 100%;
+    height: 20px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 30px;
+    font-size: 100%;
+    background-color: #808080;
+    color: #ffffff;
+}
+
 /* Large or landscape phones */
 @media screen and (min-width: 576px) {
     #photos {
@@ -277,6 +336,28 @@ footer {
     /* Gallery */
     #photos {
         column-count: 3;
+    }
+
+    /* Contact Page */
+    #contact {
+        background-position: center;
+        position: relative;
+    }
+
+    #contact-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 75px;
+    }
+
+    .text-input:hover {
+        border-color: #ffe6e6;
+    }
+    
+    .join-button:hover {
+        background-color: #ffffff;
+        color: #ffe6e6;
     }
 }
 
