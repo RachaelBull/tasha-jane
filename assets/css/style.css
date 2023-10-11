@@ -152,6 +152,7 @@ hr {
     border-bottom: 1px solid #4d4d4d;
     margin: 5px 0;
 }
+
 /* Client Comments */
 #reviews h2 {
     font-size: 280%;
@@ -244,12 +245,12 @@ footer {
     border: 1px solid #ffffff;
 }
 
-#contact-form > h2 {
+#contact-form>h2 {
     margin-bottom: 20px;
     color: #ffffff;
 }
 
-#contact-form > h3 {
+#contact-form>h3 {
     margin-bottom: 20px;
     margin-top: 20px;
     color: #ffffff;
@@ -280,6 +281,22 @@ footer {
     background-color: #808080;
     color: #ffffff;
 }
+
+/* Services Page */
+#services {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#services h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 250%;
+    border: 2px solid #ffffff;
+    background-color: rgb(217, 217, 217);
+}
+
+#
 
 /* Large or landscape phones */
 @media screen and (min-width: 576px) {
@@ -354,7 +371,7 @@ footer {
     .text-input:hover {
         border-color: #ffe6e6;
     }
-    
+
     .join-button:hover {
         background-color: #ffffff;
         color: #ffe6e6;
