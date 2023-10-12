@@ -229,7 +229,6 @@ footer {
 }
 
 /* Contacts Page */
-
 #contact {
     background-image: url(../images/shutterstock_2168230119.jpg);
     background-size: cover;
@@ -317,7 +316,6 @@ hr {
 }
 
 /* Services Page Image Background */
-
 #cirle-background {
     background: url("../images/services-image.jpg");
     height: 90vh;
@@ -333,7 +331,9 @@ hr {
     }
 }
 
-/* For display on tablets and larger (768px +) */
+/* Media query used to override the '-' background position used in the mobile view CSS on the hero image.
+Also used to adjust content layout in the header (no dropdown), the main content, gallery (image layout)
+and contact page (size of the form)*/
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -373,7 +373,6 @@ hr {
     #hero {
         height: 600px;
         width: 100%;
-        /* Background to override the - position used in the mobile view CSS */
         background: url("../images/hero\ 2.jpg") no-repeat center center/cover;
     }
 
@@ -405,7 +404,11 @@ hr {
     }
 }
 
+/* Media query used to adjust text size in clients comments section, to add border
+ bottom underlines to the menu section (nav bar), to adjust the layout of the images
+ in the gallery */
 @media screen and (min-width: 992px) {
+    
     #menu a:hover {
         border-bottom: 1px solid #808080;
     }
