@@ -102,7 +102,8 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero\ 2.jpg") no-repeat center center/cover;
+    /****************** FIX IMG ***********/
+    background: url("../images/hero-two.jpg") no-repeat center center/cover;
     /* Move image to the left in mobile view */
     background-position: -200px;
     position: relative;
@@ -230,7 +231,7 @@ footer {
 
 /* Contacts Page */
 #contact {
-    background-image: url(../images/shutterstock_2168230119.jpg);
+    background-image: url(../images/contact-image.jpg);
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -315,12 +316,20 @@ hr {
     margin: 5px 0;
 }
 
-/* Services Page Image Background */
-#cirle-background {
-    background: url("../images/services-image.jpg");
+#circle-background {
+    background: url('../images/services-image-new.jpg') no-repeat top center / cover;
     height: 90vh;
     width: 90vw;
     margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#services-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Large or landscape phones */
@@ -373,7 +382,7 @@ and contact page (size of the form)*/
     #hero {
         height: 600px;
         width: 100%;
-        background: url("../images/hero\ 2.jpg") no-repeat center center/cover;
+        background: url("../images/hero-two.jpg") no-repeat center center/cover;
     }
 
     /* Gallery */
@@ -417,7 +426,7 @@ and contact page (size of the form)*/
     #hero {
         height: 600px;
         width: 100%;
-        background: url("../images/hero\ 2.jpg") no-repeat center center/cover;
+        background: url("../images/hero-two.jpg") no-repeat center center/cover;
     }
 
     #cover-text {
