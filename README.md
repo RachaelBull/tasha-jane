@@ -261,6 +261,17 @@ there were no syntax errors in the project.
 * When first validating the HTML code in my Gallery page, the validator flagged a warning as my section didn't contain a heading. As I personally didn't want a visible heading in my Gallery page of the website, I created a heading with the display set to none. This removed the warning when my code was then re-validated. I also then re-ran my CSS code through again and the no errors status remained.
 * There remained an unfixed warning within my CSS code - this is the use of the external import for the google fonts. This does not immediately affect the responsiveness of my website currently and how it runs, however, with future updates and additional content requiring more imports is unknown. More research and testing from my end will be done about this.
 
+* The form in the Contact page has been fully tested on all screen sizes, ensuring that a valid name, email, and radio button selection is to be used before the submit can go through;
+![](docs/form-valid-one.png)
+![](docs/form-valid-two.png)
+
+* The nav bar in desktop, tablet and mobile view have been fully tested, ensuring all hover effects, links and toggles work correctly;
+![](docs/nav-test-one.png)
+![](docs/nav-test-two.png)
+
+* The social media links in the footer have been tested for all screen types and are working correctly;
+![](docs/footer-test-one.png)
+
 ## **Deployment** ##
 
 *Github*
