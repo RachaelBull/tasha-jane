@@ -162,3 +162,25 @@ contents from becoming too compacted and prevent too much happening at the same 
 *The landing page image*
 
 ![](docs/tasha-jane-hero.png)
+
+* When entering the landing page, the user is greeted with a larger hero image taking up the majority of the screen. This image was carefully chosen to entice users to stay on the page, rather than users feeling too overwhelmed by it.
+* The colours used throughout the website work hand in hand with the colours displayed within the images used. Like this hero image for example, the colour of the header and landing page image are quite similar, so the elements of the page don't look too harsh to a
+user when having the first glance at the landing page - which is where the user makes their first impression upon the website as a whole.
+* This landing page image also contains a block of cover text placed over the image with a transparent effect applied. This is to give the user a clear indication of what the website is intended for. This is placed over the image as the image will be the first thing
+to grab their attention, making it a natural reaction to acknowledge everything in the hero image.
+
+*Brief overview of the services*
+
+![](docs/tasha-jane-brief.png)
+
+* As the user slightly scrolls down from the hero image on the landing page, they are also presented with a small section containing three smaller headings. This was applied to break up a larger block of text and place it under smaller and separate categories.
+* The text inside this section is wrapped in a thin dark border and the width of the section made smaller than the elements at the start of the landing page, this is to separate it from the main hero image and present it as something that is still important to the user, but doesn't immediately draw the attention away from the main landing image.
+* Within the context, the smaller headings act as an immediate Q&A with the users. The separated headings are statements to the main queries that a user may have when entering a website that offers services; Why would I want the service? What would I potentially want this service for? What happens after this service? This section directly answers these questions without them being in the form of questions.
+
+*Short review section*
+
+![](docs/tasha-jane-reviews.png)
+
+* Underneath the brief overview of the services section, there is a small section dedicated to true client feedback. The 3 quotation feedback comments presented in this section was taken from the company's Facebook reviews section, from different stages and progressions of the business to keep it true and honest. These are applied to the main landing page as it is intended to give the user confidence in knowing that other users with similar interests have been satisfied by the services provided. Hopefully making them feel more inclined to stay within the website to advance further through.
+* These are displayed into three separate blocks, with the middle block having a different background colour with the intent to keep the user's attention. These also have a box-shadow effect applied to them, to again keep the contents and styling of the page fun and interesting.
+* These are presented smaller than the above sections that are also displayed on the same page (landing page). This is to indicate to the user that we're nearing the end of the page, keeping the contents on this first page brief and simple will entice them to progress through to the other pages in the website.
