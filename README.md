@@ -212,3 +212,57 @@ to grab their attention, making it a natural reaction to acknowledge everything 
 
 * This page allows the user to get in touch with the company via email. This would be particularly good for users that don't use social media platforms such as Facebook or Instagram - which is currently the only other forms of contact being offered at present.
 * The form also features required radio button options. This helps the user feel confident that their more specific service query will be answered in more detail and thoroughly.
+
+With further knowledge and development in the future, I would like to add more interactive features to this website, such as clickable and watchable links within the website and more specific contact forms. For example, sending submitted data into a database for the company to access.
+
+## **Technologies Used** ##
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  * Used as the basic building block for the project and to structure the content.
+* [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+  * Used to style all the web content across the project.
+* [Google Fonts](https://fonts.google.com/)
+  * Used to import the fonts linked in the header.
+* [Font Awesome](https://fontawesome.com/)
+  * Used to obtain the links for the social media icons used in the footer.
+* [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+  * Used as a primary method of finding bugs and testing responsiveness of all pages in the website.
+* [GitHub](https://github.com/)
+  * Used to store the project code after being committed and pushed.
+* [Git](https://git-scm.com/)
+  * Used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [Balsamiq](https://balsamiq.com/)
+  * Used to create the wireframes for the project.
+* [Google Docs](https://docs.google.com)
+  * Used to fix many grammar and spelling errors.
+* [CSS Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
+  * Used to pick the colours throughout the project.
+* [Favicon.io](https://favicon.io/)
+  * Used to create favicon's for the project website.
+
+## **Testing** ##
+
+I used the W3C Markup Validator and W3C CSS Validator  to validate every page of the project to ensure
+there were no syntax errors in the project.
+
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+  * No errors were found when running my CSS code through the CSS Validator. However, one warning was flagging regarding the external google fonts import, but this does not affect the responsiveness of the website.
+* [W3C Markup Validator](https://validator.w3.org/)
+  * Home page (index.html) - No errors or warnings were found when running my HTML code through the HTML Validator.
+  * Services page (services.html) - No errors or warnings were found when running my HTML code through the Validator.
+  * Galley page (gallery.html) - No errors or warnings were found when running my HTML code through the Validator.
+  * Contact page (contact.html) - No errors or warnings were found when running my HTML code through the Validator.
+
+**Unfixed & Fixed bugs**
+
+* The spacing between the bottom of the images in the Galley page in tablet and desktop view is still yet to be fixed. Whilst spending a considerable amount of time testing different code I wasn't able to make any positive changes without having a negative impact on the rest of the page. This is something I aim to fix with more research and knowledge.
+* When changing my unsuitable image file names at the time I struggled to get my hero image to shop up again on all screen sizes even after changing the file name in my CSS. After using dev tools I figured out that I had more powerful code running over the mobile view that still contained the old image file name in the file path. After this fix everything was working how it should and became responsive again.
+* Due to the nature of how long widthwise my hero image was, it displayed a more unattractive and irrelevant portion of the hero image when displayed on mobile screens. After research and practice using the background position property, I managed to get a nice section of the hero image to show when being displayed on mobile phone screens.
+* When first validating the HTML code in my Gallery page, the validator flagged a warning as my section didn't contain a heading. As I personally didn't want a visible heading in my Gallery page of the website, I created a heading with the display set to none. This removed the warning when my code was then re-validated. I also then re-ran my CSS code through again and the no errors status remained.
+* There remained an unfixed warning within my CSS code - this is the use of the external import for the google fonts. This does not immediately affect the responsiveness of my website currently and how it runs, however, with future updates and additional content requiring more imports is unknown. More research and testing from my end will be done about this.
+
+## **Deployment** ##
+
+**Github**
+
+This project is deployed using GitHub pages using the following process
