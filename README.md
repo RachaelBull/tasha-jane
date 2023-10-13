@@ -345,7 +345,7 @@ I would personally love to give credit and my thanks to Code Institute for all o
 
 I would also like to thank and credit my mentor, Harry Dhillon. Harry has helped me understand concepts of coding that I had struggled with even after research. Harry's dedication and patience to his mentees is admirable and is someone I can truly learn a lot from. Harry helped to show me how to navigate my way around Dev Tools to easily find bugs. As mentioned earlier in this document, I had trouble locating a bug with my hero image. During a screen share call Harry was able to teach me how to efficiently use Dev Tools to spot an error, something that I have taken away with me to solve other bugs.
 
-##**Future tips to consider**##
+## **Future tips to consider** ##
 
 I have really enjoyed working on this project and feel that I have learnt a great deal from it. As someone who is always looking to better myself, for future references I will aim to make my git commit messages clearer, more consistant, and using a consistant format. For example, starting every commit message with a capital letter to avoid the commits looking messy.
 
