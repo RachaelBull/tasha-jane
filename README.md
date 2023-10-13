@@ -143,3 +143,22 @@ The differences from the initial wireframes are:
 * On the Contact page a background image was added. The majority of the background image lies to the right of the screen, this is why I have kept the form to the left so that the image and form are kept somewhat separate to prevent clashing
 
 ## **Surface Plane** ##
+
+This website is fully responsive and was first designed from a mobile view persepctive - changing the layout of tablet and desktop views using media querys further into the development.
+
+**Here are the features present across the project:**
+
+*Navigation Bar*
+
+![](docs/tasha-jane-nav.png)
+
+* The navigation bar sits on top of the hero image and acts as the website's header. This navigation bar is located at the same place across all 4 pages; making it easier for users to find their way back and cut through to what they are looking for no matter what page
+they are currently on.
+* When adjusted to mobile view, the menu links at the top (Home, Services, Gallery, Contact) will change to a dropdown style menu. Where the link names are in desktop and tablet view will turn into a hamburger toggle in mobile view. This is save the screen
+contents from becoming too compacted and prevent too much happening at the same time on a much smaller screen.
+* The main logo of the company is located to the left of the navigation bar. When this logo is clicked it will take the user straight back to the homepage. Again, this is featured on every page of the website, giving a second option to get back to the landing page.
+* A hover effect has been added to the menu names on the right side of the nav bar in desktop view to give the user a clear indication that when clicked, they will be taken to a new page.
+
+*The landing page image*
+
+![](docs/tasha-jane-hero.png)
