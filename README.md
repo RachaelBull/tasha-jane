@@ -184,3 +184,31 @@ to grab their attention, making it a natural reaction to acknowledge everything 
 * Underneath the brief overview of the services section, there is a small section dedicated to true client feedback. The 3 quotation feedback comments presented in this section was taken from the company's Facebook reviews section, from different stages and progressions of the business to keep it true and honest. These are applied to the main landing page as it is intended to give the user confidence in knowing that other users with similar interests have been satisfied by the services provided. Hopefully making them feel more inclined to stay within the website to advance further through.
 * These are displayed into three separate blocks, with the middle block having a different background colour with the intent to keep the user's attention. These also have a box-shadow effect applied to them, to again keep the contents and styling of the page fun and interesting.
 * These are presented smaller than the above sections that are also displayed on the same page (landing page). This is to indicate to the user that we're nearing the end of the page, keeping the contents on this first page brief and simple will entice them to progress through to the other pages in the website.
+
+*Footer*
+
+![](docs/tasha-jane-footer.png)
+
+* Located at the bottom of all four pages the user will find the footer. The footer contains links to the relevant social media for the company itself that the project website is based upon. When clicked by a user, this will open a new page directing them to the social media platform pages.
+* Rather than having the underlining title links, icons to the social media have been added. This is because having acknowledged that the pages within this website are quite text rich - it gives the user the visual break from scanning through text, which will encourage the user to explore what the icons have to offer; hopefully resulting in users staying connected via the links.
+
+*Services page*
+
+![](docs/tasha-jane-services.png)
+
+* The contents of this page contains text only. The text is styled appropriately to divide the different services provided onto the left and right sides of the page; with the eyelash services located primarily on the left hand side of the page and eyebrow services located on the right hand side of the page. This is to give the user the choice to read through all of the services, or skip to the side of the page they are interested in.
+* The large volume of text on the page is broken up between headings, underlinings, and the use of bold lettering in some locations. This was used to keep relevant content grouped such as the service names, and for other information to remain symmetrical so the user knows automatically where to look after just a few lines; for example, the pricings always being under the service names, if not in bold.
+
+*Gallery page*
+
+![](docs/tasha-jane-gallery.png)
+
+* The gallery provides the users with visual images supporting the services being offered.
+* This section of the overall website is particularly important as this acts as the evidence behind the majority of the website content, aiming to restore confidence in users.
+
+*Contact page*
+
+![](docs/tasha-jane-contact.png)
+
+* This page allows the user to get in touch with the company via email. This would be particularly good for users that don't use social media platforms such as Facebook or Instagram - which is currently the only other forms of contact being offered at present.
+* The form also features required radio button options. This helps the user feel confident that their more specific service query will be answered in more detail and thoroughly.
