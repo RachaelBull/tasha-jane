@@ -339,7 +339,7 @@ View or make changes to a repository without affecting the original
 
 **Acknowledgments**
 
-*[Code Institute](https://codeinstitute.net/)
+* [Code Institute](https://codeinstitute.net/)
 
 I would personally love to give credit and my thanks to Code Institute for all of the very helpful material and thorough teaching. I took inspiration and ideas from their love running project [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main) this educated me and made up a vast part of my knowledge and understanding when it came to writing the HTML and CSS.
 
