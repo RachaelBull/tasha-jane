@@ -126,3 +126,20 @@ I chose lighter, more softer colours throughout this project. This was to create
 * White
 
 The footer located at the bottom of the page will be consistent throughout every page in the website - containing social media links. This is so that the user doesn't always feel too far from the home page and doesn't feel the need to flip back through multiple pages to find the social media links again.
+
+## **Skeleton Plane** ##
+
+[Wireframes](docs/tasha-jane-wireframe.pdf)
+
+Above is the initial wireframe draft of the website. Please note that the finished project website may differ slightly from this.
+
+As well as creating the wireframes to help guide me, I also used a hand drawing version on pen and paper, this made it easier for smaller changes I would think about and quickly gain a visual through drafting them down on paper.
+
+The differences from the initial wireframes are:
+
+* The section below the hero on the landing page was restructured under 3 smaller heading to make the content more organized and attractive to read
+* The main heading on the Services page is still bordered, but the actual element size made smaller, this was to stop the page content below from looking too compacted in
+* The images in the mobile view on the Gallery page were made larger and more clear from adding length to the images. This has made room for more scrolling, however, from a visual perspective the images are much cleaner
+* On the Contact page a background image was added. The majority of the background image lies to the right of the screen, this is why I have kept the form to the left so that the image and form are kept somewhat separate to prevent clashing
+
+## **Surface Plane** ##
