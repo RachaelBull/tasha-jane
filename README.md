@@ -344,3 +344,9 @@ View or make changes to a repository without affecting the original
 I would personally love to give credit and my thanks to Code Institute for all of the very helpful material and thorough teaching. I took inspiration and ideas from their love running project [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main) this educated me and made up a vast part of my knowledge and understanding when it came to writing the HTML and CSS.
 
 I would also like to thank and credit my mentor, Harry Dhillon. Harry has helped me understand concepts of coding that I had struggled with even after research. Harry's dedication and patience to his mentees is admirable and is someone I can truly learn a lot from. Harry helped to show me how to navigate my way around Dev Tools to easily find bugs. As mentioned earlier in this document, I had trouble locating a bug with my hero image. During a screen share call Harry was able to teach me how to efficiently use Dev Tools to spot an error, something that I have taken away with me to solve other bugs.
+
+##**Future tips to consider**##
+
+I have really enjoyed working on this project and feel that I have learnt a great deal from it. As someone who is always looking to better myself, for future references I will aim to make my git commit messages clearer, more consistant, and using a consistant format. For example, starting every commit message with a capital letter to avoid the commits looking messy.
+
+I also aim to use better names for my images, as there was an instance during this project where I had to go back and rename my image files as they contained numbers and characters that are not supposed to be used; causing some time consuming errors down the line.
