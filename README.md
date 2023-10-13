@@ -263,6 +263,65 @@ there were no syntax errors in the project.
 
 ## **Deployment** ##
 
-**Github**
+*Github*
 
-This project is deployed using GitHub pages using the following process
+This project is deployed using github, please follow the stages below;
+
+1. Go to your GitHub repository section and select the repository you intend to deploy.
+2. Navigate to the 'Settings' link and click it.
+3. Inside the settings page to the left hand side (about halfway down) click the 'Pages' link.
+4. Underneath the source drop-down tab, find the branch drop-down currently selected to 'None'.
+5. Change this branch selection to 'Main' and click 'Save'.
+6. Once the 'Main' branch has been selected and saved, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+It can take a few moments for this save to take effect, so people give this refresh some time.
+
+*Forking with Github*
+
+View or make changes to a repository without affecting the original
+
+1. On Github, navigate to the repository.
+2. On the top right hand side of the page, click 'Fork'.
+3. Beneath 'Owner', select the dropdown menu and click an owner for the forked repository.
+
+*Making a Clone*
+
+1. On GitHub.com, navigate to the main page of the repository.
+2. Above the list of files, click 'Code' and copy the link provided.
+3. Open Git Bash.
+4. Change the current working directory to the location where you want the cloned directory.
+5. Type git clone, and then paste the URL you copied earlier.
+6. Press 'Enter' to create your clone.
+
+[Live link to the Repository](https://rachaelbull.github.io/tasha-jane/)
+
+## **Credits** ##
+
+*Content*
+
+* [](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+  * This website was used to help me learn about background positions and how to get the correct piece of code I needed to move my hero image to the side in mobile view.
+
+* [](https://www.facebook.com/tashaslashstudiox/)
+  * This Facebook social media account was used to obtain the client reviews presented at the bottom of the landing home page.
+
+* [](https://www.instagram.com/tashajanelashesandbrows/?hl=en)
+  * This Instagram social media account was used to retrieve the services information and the pricing shown on the Services page.
+
+* [](https://londonlashstudio.co.uk/)
+  * This website was used for influence and ideas on what I would name the navigation links in the header of each page.
+
+*[](https://www.glamorous-lashes.com/)
+
+* This website was used for influence and inspiration when it came to the small broken down section below the hero image on my landing page, this helped me build upon my idea to add a short Q&A style block of text.
+
+* [](https://www.byrdie.com/lash-extension-tips#:~:text=Eyelash%20extensions%20are%20semi%2Dpermanent,using%20a%20semi%2Dpermanent%20glue.)
+  * This is where I obtained and reworded the factual parts of my content, especially on the services page to provide a brief explanation of each service.
+
+*Media*
+
+* [](https://www.shutterstock.com/discover/stock-assets-uk-0220?ds_ag=FF%3DFree_Stock-Images_AU%3DProspecting&ds_agid=58700001308364499&ds_cid=71700000014839559&ds_eid=700000001391652&gclid=CjwKCAjwg4SpBhAKEiwAdyLwvGy9FmZzKZUlek-DFEclBgvBJLaJhmvDRiqpJj7hmW1B46AGAPxi6BoCCNwQAvD_BwE&gclsrc=aw.ds&kw=completely%20free%20stock%20images&utm_campaign=CO%3DUK_LG%3DEN_BU%3DIMG_AD%3DGENERIC_TS%3Dlggeneric_RG%3DEUAF_AB%3DACQ_CH%3DSEM_OG%3DCONV_PB%3DGoogle&utm_medium=cpc&utm_source=GOOGLE)
+  * This website is where I obtained all other images. The hero image, and the background image on the contacts page.
+
+* [](https://www.facebook.com/tashaslashstudiox/)
+  * This social media Facebook account is where I obtained the pictures used in the Gallery page of the website, all pictures on the Facebook page have been approved by clients to be posted publicly.
